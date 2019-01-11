@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,main,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+	color:#FFFFFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+
+
+body, html, main {
+    /* important */
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+	
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+body{background-color:#000}
+
+.cd-fixed-bg {
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+    background-position: center center;
+	
+}
+  
+  
+.cd-fixed-bg.cd-bg-1 {
+	
+  background-image: url("../images/image1.jpeg");
+ 
+   animation-name: fadein;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+	animation-iteration-count:1;
+	
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/image2.jpeg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../images/image3.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../images/image4.jpg");
+}
+.cd-fixed-bg.cd-bg-5{
+  background-image: url("../images/image5.JPG");
+}
+.cd-scrolling-bg {
+    min-height: 100%;
+}
+.cd-container{
+	font-size:24px;
+	text-align: center;
+}
+
+#section02{
+	padding-top:360px;
+	margin-top:-30px;
+}
+#section03{
+	padding-top:360px;
+	margin-top:-30px;
+}
+#section04{
+	padding-top:360px;
+	margin-top:-30px;
+}
+		
+#section05{
+	padding-top:360px;
+	margin-top:-30px;
+}
+
+img.kakusyo {
+	
+	height: 360px;
+	transform: translate(-50%,-50%);
+	
+}
+
+h4{
+	left: 50%;
+    position: absolute;
+    top: 40%;
+	 animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-iteration-count:1;
+	
+}
+
+@keyframes fadein {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
